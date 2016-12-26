@@ -16,4 +16,3 @@ By default it listens on 7591, put your model under `model/` directory with mode
 
 ## LICENSE
 GPLv3
-GPLv3

@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='message.proto',
   package='gocnn',
   syntax='proto3',
-  serialized_pb=_b('\n\rmessage.proto\x12\x05gocnn\"\xd2\x01\n\tRequestV1\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x16\n\x0eour_group_lib1\x18\x02 \x03(\x08\x12\x16\n\x0eour_group_lib2\x18\x03 \x03(\x08\x12\x1b\n\x13our_group_lib3_plus\x18\x04 \x03(\x08\x12\x17\n\x0foppo_group_lib1\x18\x05 \x03(\x08\x12\x17\n\x0foppo_group_lib2\x18\x06 \x03(\x08\x12\x1c\n\x14oppo_group_lib3_plus\x18\x07 \x03(\x08\x12\x14\n\x0cis_simple_ko\x18\x08 \x03(\x08\"5\n\nResponseV1\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x13\n\x0bpossibility\x18\x02 \x03(\x02\"\xb9\x06\n\tRequestV2\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x17\n\x0fstone_color_our\x18\x02 \x03(\x08\x12\x18\n\x10stone_color_oppo\x18\x03 \x03(\x08\x12\x19\n\x11stone_color_empty\x18\x04 \x03(\x08\x12\x17\n\x0fturns_since_one\x18\x05 \x03(\x08\x12\x17\n\x0fturns_since_two\x18\x06 \x03(\x08\x12\x19\n\x11turns_since_three\x18\x07 \x03(\x08\x12\x18\n\x10turns_since_four\x18\x08 \x03(\x08\x12\x18\n\x10turns_since_five\x18\t \x03(\x08\x12\x17\n\x0fturns_since_six\x18\n \x03(\x08\x12\x19\n\x11turns_since_seven\x18\x0b \x03(\x08\x12\x18\n\x10turns_since_more\x18\x0c \x03(\x08\x12\x19\n\x11liberties_our_one\x18\r \x03(\x08\x12\x19\n\x11liberties_our_two\x18\x0e \x03(\x08\x12\x1b\n\x13liberties_our_three\x18\x0f \x03(\x08\x12\x1a\n\x12liberties_our_more\x18\x10 \x03(\x08\x12\x1a\n\x12liberties_oppo_one\x18\x11 \x03(\x08\x12\x1a\n\x12liberties_oppo_two\x18\x12 \x03(\x08\x12\x1c\n\x14liberties_oppo_three\x18\x13 \x03(\x08\x12\x1b\n\x13liberties_oppo_more\x18\x14 \x03(\x08\x12\x18\n\x10\x63\x61pture_size_one\x18\x15 \x03(\x08\x12\x18\n\x10\x63\x61pture_size_two\x18\x16 \x03(\x08\x12\x1a\n\x12\x63\x61pture_size_three\x18\x17 \x03(\x08\x12\x19\n\x11\x63\x61pture_size_four\x18\x18 \x03(\x08\x12\x19\n\x11\x63\x61pture_size_five\x18\x19 \x03(\x08\x12\x18\n\x10\x63\x61pture_size_six\x18\x1a \x03(\x08\x12\x1a\n\x12\x63\x61pture_size_seven\x18\x1b \x03(\x08\x12\x19\n\x11\x63\x61pture_size_more\x18\x1c \x03(\x08\x12\x14\n\x0csensibleness\x18\x1d \x03(\x08\x12\n\n\x02ko\x18\x1e \x03(\x08\x12\x0e\n\x06\x62order\x18\x1f \x03(\x08\x12\x10\n\x08position\x18  \x03(\x02\"5\n\nResponseV2\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x13\n\x0bpossibility\x18\x02 \x03(\x02\x62\x06proto3')
+  serialized_pb=_b('\n\rmessage.proto\x12\x05gocnn\"\xd2\x01\n\tRequestV1\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x16\n\x0eour_group_lib1\x18\x02 \x03(\x08\x12\x16\n\x0eour_group_lib2\x18\x03 \x03(\x08\x12\x1b\n\x13our_group_lib3_plus\x18\x04 \x03(\x08\x12\x17\n\x0foppo_group_lib1\x18\x05 \x03(\x08\x12\x17\n\x0foppo_group_lib2\x18\x06 \x03(\x08\x12\x1c\n\x14oppo_group_lib3_plus\x18\x07 \x03(\x08\x12\x14\n\x0cis_simple_ko\x18\x08 \x03(\x08\"5\n\nResponseV1\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x13\n\x0bpossibility\x18\x02 \x03(\x02\"\x80\x08\n\tRequestV2\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x17\n\x0fstone_color_our\x18\x02 \x03(\x08\x12\x18\n\x10stone_color_oppo\x18\x03 \x03(\x08\x12\x19\n\x11stone_color_empty\x18\x04 \x03(\x08\x12\x17\n\x0fturns_since_one\x18\x05 \x03(\x08\x12\x17\n\x0fturns_since_two\x18\x06 \x03(\x08\x12\x19\n\x11turns_since_three\x18\x07 \x03(\x08\x12\x18\n\x10turns_since_four\x18\x08 \x03(\x08\x12\x18\n\x10turns_since_five\x18\t \x03(\x08\x12\x17\n\x0fturns_since_six\x18\n \x03(\x08\x12\x19\n\x11turns_since_seven\x18\x0b \x03(\x08\x12\x18\n\x10turns_since_more\x18\x0c \x03(\x08\x12\x19\n\x11liberties_our_one\x18\r \x03(\x08\x12\x19\n\x11liberties_our_two\x18\x0e \x03(\x08\x12\x1b\n\x13liberties_our_three\x18\x0f \x03(\x08\x12\x1a\n\x12liberties_our_more\x18\x10 \x03(\x08\x12\x1a\n\x12liberties_oppo_one\x18\x11 \x03(\x08\x12\x1a\n\x12liberties_oppo_two\x18\x12 \x03(\x08\x12\x1c\n\x14liberties_oppo_three\x18\x13 \x03(\x08\x12\x1b\n\x13liberties_oppo_more\x18\x14 \x03(\x08\x12\x18\n\x10\x63\x61pture_size_one\x18\x15 \x03(\x08\x12\x18\n\x10\x63\x61pture_size_two\x18\x16 \x03(\x08\x12\x1a\n\x12\x63\x61pture_size_three\x18\x17 \x03(\x08\x12\x19\n\x11\x63\x61pture_size_four\x18\x18 \x03(\x08\x12\x19\n\x11\x63\x61pture_size_five\x18\x19 \x03(\x08\x12\x18\n\x10\x63\x61pture_size_six\x18\x1a \x03(\x08\x12\x1a\n\x12\x63\x61pture_size_seven\x18\x1b \x03(\x08\x12\x19\n\x11\x63\x61pture_size_more\x18\x1c \x03(\x08\x12\x16\n\x0eself_atari_one\x18\x1d \x03(\x08\x12\x16\n\x0eself_atari_two\x18\x1e \x03(\x08\x12\x18\n\x10self_atari_three\x18\x1f \x03(\x08\x12\x17\n\x0fself_atari_four\x18  \x03(\x08\x12\x17\n\x0fself_atari_five\x18! \x03(\x08\x12\x16\n\x0eself_atari_six\x18\" \x03(\x08\x12\x18\n\x10self_atari_seven\x18# \x03(\x08\x12\x17\n\x0fself_atari_more\x18$ \x03(\x08\x12\x14\n\x0csensibleness\x18% \x03(\x08\x12\n\n\x02ko\x18& \x03(\x08\x12\x0e\n\x06\x62order\x18\' \x03(\x08\x12\x10\n\x08position\x18( \x03(\x02\"5\n\nResponseV2\x12\x12\n\nboard_size\x18\x01 \x01(\x05\x12\x13\n\x0bpossibility\x18\x02 \x03(\x02\x62\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -348,29 +348,85 @@ _REQUESTV2 = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='sensibleness', full_name='gocnn.RequestV2.sensibleness', index=28,
+      name='self_atari_one', full_name='gocnn.RequestV2.self_atari_one', index=28,
       number=29, type=8, cpp_type=7, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='ko', full_name='gocnn.RequestV2.ko', index=29,
+      name='self_atari_two', full_name='gocnn.RequestV2.self_atari_two', index=29,
       number=30, type=8, cpp_type=7, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='border', full_name='gocnn.RequestV2.border', index=30,
+      name='self_atari_three', full_name='gocnn.RequestV2.self_atari_three', index=30,
       number=31, type=8, cpp_type=7, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='position', full_name='gocnn.RequestV2.position', index=31,
-      number=32, type=2, cpp_type=6, label=3,
+      name='self_atari_four', full_name='gocnn.RequestV2.self_atari_four', index=31,
+      number=32, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='self_atari_five', full_name='gocnn.RequestV2.self_atari_five', index=32,
+      number=33, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='self_atari_six', full_name='gocnn.RequestV2.self_atari_six', index=33,
+      number=34, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='self_atari_seven', full_name='gocnn.RequestV2.self_atari_seven', index=34,
+      number=35, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='self_atari_more', full_name='gocnn.RequestV2.self_atari_more', index=35,
+      number=36, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='sensibleness', full_name='gocnn.RequestV2.sensibleness', index=36,
+      number=37, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='ko', full_name='gocnn.RequestV2.ko', index=37,
+      number=38, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='border', full_name='gocnn.RequestV2.border', index=38,
+      number=39, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='position', full_name='gocnn.RequestV2.position', index=39,
+      number=40, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -388,7 +444,7 @@ _REQUESTV2 = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=293,
-  serialized_end=1118,
+  serialized_end=1317,
 )
 
 
@@ -425,8 +481,8 @@ _RESPONSEV2 = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1120,
-  serialized_end=1173,
+  serialized_start=1319,
+  serialized_end=1372,
 )
 
 DESCRIPTOR.message_types_by_name['RequestV1'] = _REQUESTV1
