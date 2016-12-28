@@ -92,3 +92,4 @@ ENV/
 /model
 
 /.idea
+/.venv2
